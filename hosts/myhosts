@@ -1,0 +1,12 @@
+# Custom host records are listed here.
+
+0.0.0.0 linux.org.ru
+0.0.0.0 www.linux.org.ru
+0.0.0.0 pikabu.ru
+0.0.0.0 www.pikabu.ru
+0.0.0.0 9gag.com
+0.0.0.0 nnm.ru
+0.0.0.0 news.ycombinator.com
+0.0.0.0 technogies.ru
+
+# End of custom host records.

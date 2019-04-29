@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+cdf() {
+	local dir="$1"
+	cd "${HOME}/${dir}/$(find "${HOME}/${dir}" -type d -maxdepth 1 -mindepth 1 | xargs basename | fzf --height=40% --sync)"
+}
+
+
