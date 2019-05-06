@@ -71,7 +71,7 @@ return {
             },
 						apps = {
 							{
-								app = 'Telegram Desktop',
+								app = 'Telegram',
 								screen = 'Color LCD',
 								horizontal = {
 									center = 0.5,
@@ -80,6 +80,18 @@ return {
 								vertical = {
 									center = 0.5,
 									length = 0.644
+								},
+							},
+							{
+								app = 'Telegram',
+								screen = 'DELL P2715Q',
+								horizontal = {
+									center = 0.5,
+									length = 0.35
+								},
+								vertical = {
+									center = 0.5,
+									length = 0.55
 								},
 							},
 							{
@@ -195,7 +207,7 @@ return {
                 modifiers = {'cmd', 'alt'},
                 key = 'b'
             },
-            cmd = 'apps.launchOrFocus',
+            cmd = 'apps.toggle',
             args = 'Safari'
         },
         {
@@ -220,7 +232,7 @@ return {
                 key = 't'
             },
             cmd = 'apps.toggle',
-            args = 'Telegram Desktop'
+            args = 'Telegram'
         },
         {
             shortcut = {
