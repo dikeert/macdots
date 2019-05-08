@@ -207,7 +207,7 @@ return {
                 modifiers = {"cmd", "alt"},
                 key = "i"
             },
-            cmd = "apps.launchOrFocus",
+            cmd = "apps.toggle",
             args = "IntelliJ IDEA"
         },
         {
