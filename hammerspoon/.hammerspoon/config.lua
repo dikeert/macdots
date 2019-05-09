@@ -131,6 +131,18 @@ return {
                     }
                 },
                 {
+                    app = "Messages",
+                    screen = "DELL P2715Q",
+                    horizontal = {
+                        center = 0.5,
+                        length = 0.35
+                    },
+                    vertical = {
+                        center = 0.5,
+                        length = 0.55
+                    }
+                },
+                {
                     app = "Finder",
                     screen = "Color LCD",
                     horizontal = {
@@ -141,7 +153,19 @@ return {
                         center = 0.5,
                         length = 0.644
                     }
-                }
+                },
+                {
+                    app = "Finder",
+                    screen = "DELL P2715Q",
+                    horizontal = {
+                        center = 0.5,
+                        length = 0.35
+                    },
+                    vertical = {
+                        center = 0.5,
+                        length = 0.55
+                    }
+                },
             }
         }
     },
