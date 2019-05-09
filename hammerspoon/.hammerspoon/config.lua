@@ -296,7 +296,7 @@ return {
                 key = "u"
             },
             cmd = "apps.toggle",
-            args = "Cantata"
+            args = "iTunes"
         },
         {
             shortcut = {
