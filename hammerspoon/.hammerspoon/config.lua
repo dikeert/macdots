@@ -244,6 +244,14 @@ return {
         },
         {
             shortcut = {
+                modifiers = {"ctrl", "alt"},
+                key = "i"
+            },
+            cmd = "dir.open-in",
+            args = {"/Users/aermolenko/work/src", "IntelliJ IDEA"}
+        },
+        {
+            shortcut = {
                 modifiers = {"cmd", "alt"},
                 key = "s"
             },
