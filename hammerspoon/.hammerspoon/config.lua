@@ -228,6 +228,14 @@ return {
         },
         {
             shortcut = {
+                modifiers = {'cmd'},
+                key = '\\'
+            },
+            cmd = 'cde.src',
+            args = '/Users/aermolenko/work/src'
+        },
+        {
+            shortcut = {
                 modifiers = {"cmd", "alt"},
                 key = "i"
             },
