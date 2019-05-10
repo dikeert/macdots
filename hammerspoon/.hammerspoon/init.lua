@@ -6,7 +6,7 @@ local config = require 'config'
 local apps = require 'apps'
 local windows = require 'windows'
 local utils = require 'utils'
-local cde = require 'cde'
+local dir = require 'dir'
 local keys = require 'keys'
 
 hs.window.animationDuration = 0
@@ -14,5 +14,5 @@ hs.window.animationDuration = 0
 apps.init()
 windows.init(config.windows)
 utils.init()
-cde.init()
+dir.init()
 keys.init(config.keys)

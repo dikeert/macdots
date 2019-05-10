@@ -228,11 +228,11 @@ return {
         },
         {
             shortcut = {
-                modifiers = {'cmd'},
-                key = '\\'
+                modifiers = {'ctrl', 'alt'},
+                key = 'c'
             },
-            cmd = 'cde.src',
-            args = '/Users/aermolenko/work/src'
+            cmd = 'dir.open-in',
+            args = {'/Users/aermolenko/work/src', 'Visual Studio Code'}
         },
         {
             shortcut = {
@@ -297,6 +297,14 @@ return {
             },
             cmd = "apps.launchOrFocus",
             args = "Finder"
+        },
+        {
+            shortcut = {
+                modifiers = {"ctrl", "alt"},
+                key = "h"
+            },
+            cmd = "dir.open-in",
+            args = {"/Users/aermolenko/work/homes", "Finder"}
         },
         {
             shortcut = {
