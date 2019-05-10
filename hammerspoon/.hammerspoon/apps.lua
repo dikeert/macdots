@@ -27,6 +27,21 @@ local function init()
     )
 
     cmds.register(
+        "apps.toggle-altname",
+        function(args)
+            front_app = apps.frontmostApplication()
+            for _, name in pairs(args) do
+                if front_app:name() == name then
+                    front_app:hide()
+                    return
+                end
+            end
+
+            apps.launchOrFocus(args[1])
+        end
+    )
+
+    cmds.register(
         "apps.toggle.a-or-b",
         function(args)
             running_apps = apps.runningApplications()

@@ -223,8 +223,8 @@ return {
                 modifiers = {"cmd", "alt"},
                 key = "v"
             },
-            cmd = "apps.launchOrFocus",
-            args = "Visual Studio Code"
+            cmd = "apps.toggle-altname",
+            args = {"Visual Studio Code", "Code"}
         },
         {
             shortcut = {
