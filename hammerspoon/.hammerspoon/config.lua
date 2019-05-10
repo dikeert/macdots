@@ -329,6 +329,44 @@ return {
             },
             cmd = "apps.toggle",
             args = "Terminal"
+        },
+        {
+            shortcut = {
+                modifiers = {"alt", "shift"},
+                key = "o"
+            },
+            cmd = "macro.seq",
+            args = {
+                {
+                    modifiers = {"ctrl"},
+                    key = "p"
+                },
+                {
+                    modifiers = {"ctrl"},
+                    key = "e"
+                },
+                {
+                    modifiers = {},
+                    key = "return"
+                }
+            }
+        },
+        {
+            shortcut = {
+                modifiers = {"alt"},
+                key = "o"
+            },
+            cmd = "macro.seq",
+            args = {
+                {
+                    modifiers = {"ctrl"},
+                    key = "e"
+                },
+                {
+                    modifiers = {},
+                    key = "return"
+                }
+            }
         }
     }
 }
