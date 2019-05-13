@@ -324,6 +324,14 @@ return {
         },
         {
             shortcut = {
+                modifiers = {"ctrl", "alt"},
+                key = "d"
+            },
+            cmd = "dir.open-in",
+            args = {"/Users/aermolenko/work/dos", "Finder"}
+        },
+        {
+            shortcut = {
                 modifiers = {"cmd", "alt"},
                 key = "u"
             },

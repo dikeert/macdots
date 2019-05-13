@@ -34,7 +34,7 @@ end
 local function make_handler(app)
     return function(val)
         if val then
-            hs.execute("open " .. "-a" .. " '" .. app .. "' " .. val.subText)
+            hs.execute("open " .. "-a" .. " '" .. app .. "' '" .. val.subText .. "'")
         end
     end
 end
