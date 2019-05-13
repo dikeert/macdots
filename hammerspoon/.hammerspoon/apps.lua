@@ -42,6 +42,19 @@ local function init()
     )
 
     cmds.register(
+        "apps.switching.a-or-b",
+        function(args)
+            front_app = apps.frontmostApplication()
+
+            if front_app:name() == args[1] then
+                do_toggle(args[2])
+            else
+                do_toggle(args[1])
+            end
+        end
+    )
+
+    cmds.register(
         "apps.toggle.a-or-b",
         function(args)
             running_apps = apps.runningApplications()

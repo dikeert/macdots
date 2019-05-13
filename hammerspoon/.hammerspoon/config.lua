@@ -271,8 +271,8 @@ return {
                 modifiers = {"cmd", "alt"},
                 key = "b"
             },
-            cmd = "apps.toggle",
-            args = "Safari"
+            cmd = "apps.switching.a-or-b",
+            args = {"Safari", "Google Chrome"}
         },
         {
             shortcut = {
