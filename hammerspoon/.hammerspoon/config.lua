@@ -71,7 +71,7 @@ return {
             },
             apps = {
                 {
-                    app = "Telegram",
+                    app = "Telegram Desktop",
                     screen = "Color LCD",
                     horizontal = {
                         center = 0.5,
@@ -83,7 +83,7 @@ return {
                     }
                 },
                 {
-                    app = "Telegram",
+                    app = "Telegram Desktop",
                     screen = "DELL P2715Q",
                     horizontal = {
                         center = 0.5,
@@ -229,7 +229,7 @@ return {
         {
             shortcut = {
                 modifiers = {'ctrl', 'alt'},
-                key = 'c'
+                key = 'v'
             },
             cmd = 'dir.open-in',
             args = {'/Users/aermolenko/work/src', 'Visual Studio Code'}
@@ -296,7 +296,7 @@ return {
                 key = "t"
             },
             cmd = "apps.toggle.a-or-b",
-            args = {"Telegram", "Messages"}
+            args = {"Telegram Desktop", "Messages"}
         },
         {
             shortcut = {
