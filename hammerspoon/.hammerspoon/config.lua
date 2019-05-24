@@ -287,7 +287,7 @@ return {
                 modifiers = {"cmd", "alt"},
                 key = "m"
             },
-            cmd = "apps.launchOrFocus",
+            cmd = "apps.toggle",
             args = "Mail"
         },
         {
@@ -336,7 +336,7 @@ return {
                 key = "u"
             },
             cmd = "apps.toggle",
-            args = "iTunes"
+            args = "Cantata"
         },
         {
             shortcut = {
