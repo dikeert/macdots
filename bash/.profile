@@ -14,7 +14,7 @@ export PS1='\[\033[36m\][$(shorten_path)]\[\e[31m\]$(__git_ps1)\n\[\033[36m\]$ \
 export CLICOLOR=1
 export LSCOLORS=ExBxhxDxfxhxhxhxhxcxcx
 
-export PATH=${HOME}/.local/bin:/usr/local/opt/python/libexec/bin:$PATH
+export PATH=${HOME}/.local/bin:${GOPATH}/bin:/usr/local/opt/python/libexec/bin:$PATH
 
 source ~/.bash-aliases.sh
 source ~/.bashrc

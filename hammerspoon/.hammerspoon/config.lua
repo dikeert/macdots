@@ -166,6 +166,18 @@ return {
                         length = 0.55
                     }
                 },
+                {
+                    app = "Reeder",
+                    screen = "DELL P2715Q",
+                    horizontal = {
+                        center = 0.5,
+                        length = 0.52
+                    },
+                    vertical = {
+                        center = 0.5,
+                        length = 0.8
+                    }
+                },
             }
         }
     },
@@ -336,7 +348,7 @@ return {
                 key = "u"
             },
             cmd = "apps.toggle",
-            args = "Cantata"
+            args = "iTunes"
         },
         {
             shortcut = {
