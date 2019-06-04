@@ -71,6 +71,18 @@ return {
             },
             apps = {
                 {
+                    app = "IntelliJ IDEA",
+                    screen = "Color LCD",
+                    horizontal = {
+                        center = 0.5,
+                        length = 1
+                    },
+                    vertical = {
+                        center = 0.5,
+                        length = 1
+                    }
+                },
+                {
                     app = "Telegram Desktop",
                     screen = "Color LCD",
                     horizontal = {
@@ -107,18 +119,6 @@ return {
                     }
                 },
                 {
-                    app = "Cantata",
-                    screen = "DELL P2715Q",
-                    horizontal = {
-                        center = 0.5,
-                        length = 0.35
-                    },
-                    vertical = {
-                        center = 0.5,
-                        length = 0.55
-                    }
-                },
-                {
                     app = "Messages",
                     screen = "Color LCD",
                     horizontal = {
@@ -132,6 +132,18 @@ return {
                 },
                 {
                     app = "Messages",
+                    screen = "DELL P2715Q",
+                    horizontal = {
+                        center = 0.5,
+                        length = 0.35
+                    },
+                    vertical = {
+                        center = 0.5,
+                        length = 0.55
+                    }
+                },
+                {
+                    app = "Reminders",
                     screen = "DELL P2715Q",
                     horizontal = {
                         center = 0.5,
@@ -357,6 +369,14 @@ return {
             },
             cmd = "apps.launchOrFocus",
             args = "Notes"
+        },
+        {
+            shortcut = {
+                modifiers = {"cmd", "alt"},
+                key = "r"
+            },
+            cmd = "apps.toggle",
+            args = "Reminders"
         },
         {
             shortcut = {
