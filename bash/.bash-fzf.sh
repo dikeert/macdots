@@ -25,4 +25,6 @@ codef() {
 alias src="cdf work/src"
 alias dos="cdf work/dos"
 alias cde="codef work/src"
+alias hms="cdf work/homes"
+alias gg='cdf $(pwd | sed "s|/Users/aermolenko/||")'
 
