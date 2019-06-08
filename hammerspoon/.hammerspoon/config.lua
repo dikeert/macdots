@@ -31,8 +31,8 @@ return {
                         length = 0.9
                     },
                     horizontal = {
-                        center = 0.5,
-                        length = 0.7
+                        center = 0.41,
+                        length = 0.8
                     },
                     left = {
                         position = 0,
@@ -70,18 +70,6 @@ return {
                 }
             },
             apps = {
-                {
-                    app = "IntelliJ IDEA",
-                    screen = "Color LCD",
-                    horizontal = {
-                        center = 0.5,
-                        length = 1
-                    },
-                    vertical = {
-                        center = 0.5,
-                        length = 1
-                    }
-                },
                 {
                     app = "Telegram Desktop",
                     screen = "Color LCD",
@@ -380,8 +368,8 @@ return {
         },
         {
             shortcut = {
-                modifiers = {"alt"},
-                key = "`"
+                modifiers = {"cmd"},
+                key = "\\"
             },
             cmd = "apps.toggle",
             args = "Terminal"
