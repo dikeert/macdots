@@ -50,11 +50,11 @@ return {
                     screen = "DELL P2715Q",
                     vertical = {
                         center = 0.5,
-                        length = 0.644
+                        length = 0.8
                     },
                     horizontal = {
-                        center = 0.509,
-                        length = 0.692
+                        center = 0.41,
+                        length = 0.8
                     },
                     left = {
                         position = 0,
@@ -265,6 +265,14 @@ return {
         {
             shortcut = {
                 modifiers = {"cmd", "alt"},
+                key = "x"
+            },
+            cmd = "apps.toggle",
+            args = "Xcode"
+        },
+        {
+            shortcut = {
+                modifiers = {"cmd", "alt"},
                 key = "s"
             },
             cmd = "apps.toggle",
@@ -355,7 +363,7 @@ return {
                 modifiers = {"cmd", "alt"},
                 key = "n"
             },
-            cmd = "apps.launchOrFocus",
+            cmd = "apps.toggle",
             args = "Notes"
         },
         {

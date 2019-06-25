@@ -15,6 +15,7 @@ export CLICOLOR=1
 export LSCOLORS=ExBxhxDxfxhxhxhxhxcxcx
 
 export PATH=${HOME}/.local/bin:${GOPATH}/bin:/usr/local/opt/python/libexec/bin:$PATH
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 source ~/.bash-aliases.sh
 source ~/.bashrc
